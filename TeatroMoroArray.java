@@ -92,13 +92,15 @@ public static void Menu(){
         contadorEntradas++;
      
         // GENERAR BOLETA DE COMPRA
-        System.out.println("    BOLETA TEATRO MORO   ");
-        System.out.println("----------------------------");
+        System.out.println("          BOLETA TEATRO MORO        ");
+        System.out.println("------------------------------------");
         System.out.println("UBICACION: " + ubicacion);
         System.out.println("PRECIO BASE: $"+ (int)valorBase);
         System.out.println("DESCUENTO APLICADO: %" +(int)(descuento*100));
         System.out.println("PRECIO FINAL: $"+ (int)valorFinal);
-        System.out.println("----------------------------");
+        System.out.println();
+        System.out.println("GRACIAS POR SU VISITA AL TEATRO MORO");
+        System.out.println("------------------------------------");
     }
     
     public static void mostrarResumen() {
